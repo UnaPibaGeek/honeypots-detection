@@ -15,7 +15,16 @@ This repository contains Nuclei templates to detect several well-known open-sour
 
 ## Example
 
+![example](https://github.com/UnaPibaGeek/honeypots-detection/blob/main/examples/example.png)
+
+For a more detailed output it is possible to use the `-debug-resp` parameter:
+
+![example_debug](https://github.com/UnaPibaGeek/honeypots-detection/blob/main/examples/example_debug.png)
+
+The requests will be sent to the honeypot's default port if not specified.
+
 ## Acknowledgements
 - Thank you [Project Discovery](https://github.com/projectdiscovery/nuclei) for such a great tool and contribution to our community.
 - These templates were developed while researching honeypots at [Dreamlab Technologies](www.dreamlab.net) for [CYOBS](www.cyobs.com).
 
+Made with ❤️ by [UnaPibaGeek](https://www.twitter.com/UnaPibaGeek).
